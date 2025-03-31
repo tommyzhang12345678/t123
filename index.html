@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新和瑜珈博客</title>
+    <link rel="stylesheet" href="./assests/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>新和瑜珈博客</h1>
+            <p>瑜珈就在新和瑜珈</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">新和瑜珈@xinheyuejia.com</div>
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="搜索博客文章...">
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="category-filter">
+            <button class="category-btn active" data-category="all"><i class="fas fa-ghost"></i> 全部</button>
+            <button class="category-btn" data-category="info"><i class="fas fa-book"></i> 信息</button>
+            <button class="category-btn" data-category="article"><i class="fas fa-newspaper"></i> 文章</button>
+            <button class="category-btn" data-category="update"><i class="fas fa-star"></i> 更新</button>
+        </div>
+
+        <div class="blog-grid">
+            <!-- Blog Post 1 -->
+            <div class="blog-post" data-category="info">
+                <div class="post-image">
+                    <img src="path/to/yoga-image1.jpg" alt="什么是瑜伽">
+                </div>
+                <div class="post-content">
+                    <h3>什么是瑜伽</h3>
+                    <div class="post-meta">
+                        <span class="category">信息</span>
+                        <span class="views"><i class="fas fa-eye"></i> 24.6千</span>
+                        <span class="likes"><i class="fas fa-heart"></i> 1.2千</span>
+                    </div>
+                    <p>瑜伽是一种古老的练习，结合身体姿势、呼吸技巧和冥想，以促进身心健康。</p>
+                    <a href="/posts/what-is-yoga" class="read-more">阅读更多</a>
+                </div>
+            </div>
+
+            <!-- Blog Post 2 -->
+            <div class="blog-post" data-category="update">
+                <div class="post-image">
+                    <img src="path/to/yoga-image2.jpg" alt="最新课程更新">
+                </div>
+                <div class="post-content">
+                    <h3>最新课程更新</h3>
+                    <div class="post-meta">
+                        <span class="category">更新</span>
+                        <span class="views"><i class="fas fa-eye"></i> 18.2千</span>
+                        <span class="likes"><i class="fas fa-heart"></i> 900</span>
+                    </div>
+                    <p>了解我们最新的瑜伽课程安排和特别活动。</p>
+                    <a href="/posts/course-updates" class="read-more">阅读更多</a>
+                </div>
+            </div>
+
+            <!-- Blog Post 3 -->
+            <div class="blog-post" data-category="article">
+                <div class="post-image">
+                    <img src="path/to/yoga-image3.jpg" alt="瑜伽商店推荐">
+                </div>
+                <div class="post-content">
+                    <h3>瑜伽商店推荐</h3>
+                    <div class="post-meta">
+                        <span class="category">文章</span>
+                        <span class="views"><i class="fas fa-eye"></i> 15千</span>
+                        <span class="likes"><i class="fas fa-heart"></i> 800</span>
+                    </div>
+                    <p>探索适合瑜伽练习者的最佳装备和配件。</p>
+                    <a href="/posts/yoga-shop" class="read-more">阅读更多</a>
+                </div>
+            </div>
+
+            <!-- Blog Post 4 -->
+            <div class="blog-post" data-category="info">
+                <div class="post-image">
+                    <img src="path/to/yoga-image4.jpg" alt="初学者瑜伽指南">
+                </div>
+                <div class="post-content">
+                    <h3>初学者瑜伽指南</h3>
+                    <div class="post-meta">
+                        <span class="category">信息</span>
+                        <span class="views"><i class="fas fa-eye"></i> 20千</span>
+                        <span class="likes"><i class="fas fa-heart"></i> 1.5千</span>
+                    </div>
+                    <p>为新手提供简单的瑜伽姿势和入门建议。</p>
+                    <a href="/posts/beginner-guide" class="read-more">阅读更多</a>
+                </div>
+            </div>
+
+            <!-- Blog Post 5 -->
+            <div class="blog-post" data-category="article">
+                <div class="post-image">
+                    <img src="path/to/yoga-image5.jpg" alt="冥想的好处">
+                </div>
+                <div class="post-content">
+                    <h3>冥想的好处</h3>
+                    <div class="post-meta">
+                        <span class="category">文章</span>
+                        <span class="views"><i class="fas fa-eye"></i> 22千</span>
+                        <span class="likes"><i class="fas fa-heart"></i> 1.3千</span>
+                    </div>
+                    <p>探索冥想如何提升心理健康和专注力。</p>
+                    <a href="/posts/meditation-benefits" class="read-more">阅读更多</a>
+                </div>
+            </div>
+
+            <!-- Blog Post 6 -->
+            <div class="blog-post" data-category="update">
+                <div class="post-image">
+                    <img src="path/to/yoga-image6.jpg" alt="新和瑜伽夏季课程">
+                </div>
+                <div class="post-content">
+                    <h3>新和瑜伽夏季课程</h3>
+                    <div class="post-meta">
+                        <span class="category">更新</span>
+                        <span class="views"><i class="fas fa-eye"></i> 17千</span>
+                        <span class="likes"><i class="fas fa-heart"></i> 950</span>
+                    </div>
+                    <p>了解我们夏季的特别瑜伽课程安排。</p>
+                    <a href="/posts/summer-courses" class="read-more">阅读更多</a>
+                </div>
+            </div>
+
+            <!-- Blog Post 7 -->
+            <div class="blog-post" data-category="info">
+                <div class="post-image">
+                    <img src="path/to/yoga-image7.jpg" alt="瑜伽呼吸技巧">
+                </div>
+                <div class="post-content">
+                    <h3>瑜伽呼吸技巧</h3>
+                    <div class="post-meta">
+                        <span class="category">信息</span>
+                        <span class="views"><i class="fas fa-eye"></i> 19千</span>
+                        <span class="likes"><i class="fas fa-heart"></i> 1.1千</span>
+                    </div>
+                    <p>掌握基本的瑜伽呼吸法以增强练习效果。</p>
+                    <a href="/posts/breathing-techniques" class="read-more">阅读更多</a>
+                </div>
+            </div>
+
+            <!-- Blog Post 8 -->
+            <div class="blog-post" data-category="article">
+                <div class="post-image">
+                    <img src="path/to/yoga-image8.jpg" alt="瑜伽与健康饮食">
+                </div>
+                <div class="post-content">
+                    <h3>瑜伽与健康饮食</h3>
+                    <div class="post-meta">
+                        <span class="category">文章</span>
+                        <span class="views"><i class="fas fa-eye"></i> 21千</span>
+                        <span class="likes"><i class="fas fa-heart"></i> 1.4千</span>
+                    </div>
+                    <p>探讨瑜伽与健康饮食如何相辅相成。</p>
+                    <a href="/posts/yoga-diet" class="read-more">阅读更多</a>
+                </div>
+            </div>
+
+            <!-- Blog Post 9 -->
+            <div class="blog-post" data-category="update">
+                <div class="post-image">
+                    <img src="path/to/yoga-image9.jpg" alt="冬季瑜伽活动">
+                </div>
+                <div class="post-content">
+                    <h3>冬季瑜伽活动</h3>
+                    <div class="post-meta">
+                        <span class="category">更新</span>
+                        <span class="views"><i class="fas fa-eye"></i> 16千</span>
+                        <span class="likes"><i class="fas fa-heart"></i> 850</span>
+                    </div>
+                    <p>冬季特别瑜伽活动和课程更新。</p>
+                    <a href="/posts/winter-events" class="read-more">阅读更多</a>
+                </div>
+            </div>
+
+            <!-- Blog Post 10 -->
+            <div class="blog-post" data-category="info">
+                <div class="post-image">
+                    <img src="path/to/yoga-image10.jpg" alt="瑜伽姿势详解">
+                </div>
+                <div class="post-content">
+                    <h3>瑜伽姿势详解</h3>
+                    <div class="post-meta">
+                        <span class="category">信息</span>
+                        <span class="views"><i class="fas fa-eye"></i> 23千</span>
+                        <span class="likes"><i class="fas fa-heart"></i> 1.6千</span>
+                    </div>
+                    <p>深入了解常见的瑜伽姿势及其益处。</p>
+                    <a href="/posts/pose-breakdown" class="read-more">阅读更多</a>
+                </div>
+            </div>
+
+            <!-- Blog Post 11 -->
+            <div class="blog-post" data-category="article">
+                <div class="post-image">
+                    <img src="path/to/yoga-image11.jpg" alt="瑜伽与心理健康">
+                </div>
+                <div class="post-content">
+                    <h3>瑜伽与心理健康</h3>
+                    <div class="post-meta">
+                        <span class="category">文章</span>
+                        <span class="views"><i class="fas fa-eye"></i> 20.5千</span>
+                        <span class="likes"><i class="fas fa-heart"></i> 1.3千</span>
+                    </div>
+                    <p>瑜伽如何帮助缓解压力和焦虑。</p>
+                    <a href="/posts/mental-health" class="read-more">阅读更多</a>
+                </div>
+            </div>
+
+            <!-- Blog Post 12 -->
+            <div class="blog-post" data-category="update">
+                <div class="post-image">
+                    <img src="path/to/yoga-image12.jpg" alt="春季瑜伽计划">
+                </div>
+                <div class="post-content">
+                    <h3>春季瑜伽计划</h3>
+                    <div class="post-meta">
+                        <span class="category">更新</span>
+                        <span class="views"><i class="fas fa-eye"></i> 18千</span>
+                        <span class="likes"><i class="fas fa-heart"></i> 1千</span>
+                    </div>
+                    <p>春季瑜伽课程和户外活动安排。</p>
+                    <a href="/posts/spring-plan" class="read-more">阅读更多</a>
+                </div>
+            </div>
+
+            <!-- Blog Post 13 -->
+            <div class="blog-post" data-category="article">
+                <div class="post-image">
+                    <img src="path/to/yoga-image13.jpg" alt="瑜伽装备推荐">
+                </div>
+                <div class="post-content">
+                    <h3>瑜伽装备推荐</h3>
+                    <div class="post-meta">
+                        <span class="category">文章</span>
+                        <span class="views"><i class="fas fa-eye"></i> 19.5千</span>
+                        <span class="likes"><i class="fas fa-heart"></i> 1.2千</span>
+                    </div>
+                    <p>为瑜伽爱好者推荐最佳装备选择。</p>
+                    <a href="/posts/gear-recommendations" class="read-more">阅读更多</a>
+                </div>
+            </div>
+
+            <!-- Blog Post 14 -->
+            <div class="blog-post" data-category="info">
+                <div class="post-image">
+                    <img src="path/to/yoga-image14.jpg" alt="瑜伽基础知识">
+                </div>
+                <div class="post-content">
+                    <h3>瑜伽基础知识</h3>
+                    <div class="post-meta">
+                        <span class="category">信息</span>
+                        <span class="views"><i class="fas fa-eye"></i> 25千</span>
+                        <span class="likes"><i class="fas fa-heart"></i> 1.8千</span>
+                    </div>
+                    <p>瑜伽初学者需要了解的基本知识。</p>
+                    <a href="/posts/yoga-basics" class="read-more">阅读更多</a>
+                </div>
+            </div>
+
+            <!-- Blog Post 15 -->
+            <div class="blog-post" data-category="update">
+                <div class="post-image">
+                    <img src="path/to/yoga-image15.jpg" alt="秋季瑜伽特别活动">
+                </div>
+                <div class="post-content">
+                    <h3>秋季瑜伽特别活动</h3>
+                    <div class="post-meta">
+                        <span class="category">更新</span>
+                        <span class="views"><i class="fas fa-eye"></i> 17.5千</span>
+                        <span class="likes"><i class="fas fa-heart"></i> 950</span>
+                    </div>
+                    <p>秋季特别瑜伽活动和课程更新。</p>
+                    <a href="/posts/autumn-events" class="read-more">阅读更多</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 新和瑜珈博客。保留所有权利。</p>
+        <div class="contact-info">
+            <span><i class="fab fa-wechat"></i> 微信: XinheYoga</span>
+            <span><i class="fab fa-weibo"></i> 微博: @XinheYogaBlog</span>
+            <span><i class="fas fa-envelope"></i> 邮箱: <a href="mailto:contact@xinheyuejia.com">contact@xinheyuejia.com</a></span>
+        </div>
+    </footer>
+
+    <script src="./assests/js/script.js"></script>
+</body>
+</html>
